@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMD-Restaurant</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+
+<sticky>
+<div class="container-fluid text-center kjnsdkjnlsdnmafjlnalejnglmqelnfjolqnefonqleng">
+  <img src="img/discount.png" alt="discount" width="300px" class="discooound">
+  <img src="img/sticky.jpg" alt="sticky-img" height="300px" width="50%" class=" rounded-circle img-thumbnail pt-5 mt-5 pb-5 border-0" id="sticky-111111">
+  <h2 class="mt-5 ">Today's Meal</h2>
+  <p class="pd-n2 mb-2 "><strong><abbr data-toggle="tooltip" title="Today's Meal"  > family meal</abbr></strong>:  40 pieces of broasted + 4 large dishes of rice + 4 liters of Pepsi
+    <br><small class="text-down ">(Add to the meal bread, coleslaw and garlic dip)</small></p>
+
+
+
+    <button type="button"   type="button" class=" btn bg-dark text-warning mb-5" data-toggle="modal" data-target="#myModal">Order</button>
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">To Delivery Enter Your Address</h4>
+            <button type="button" class="close" data-dismiss="modal" >&times;</button>
+          </div>
+          
+          <div class="modal-body" >
+            <input type="text">
+          </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal">Done</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+</div>
+</sticky>
+
+
+<header class="sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark"  >
+    <div class="container-fluid">
+        <input type="image" src="img/Asset 2.png" class="me-3 rounded-circle" alt="pic" height="40px" width="40px">
+      <a class="navbar-brand text-light" href="#" style="border-right:5px solid rgba(224, 173, 5, 0.651); padding-right: 10px; font-weight: bold;">AMD</a>
+      
+      <button class="navbar-toggler bg-warning " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon  "></span>
+      </button>
+      
+      <div class="collapse navbar-collapse " id="navbarSupportedContent" >
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Branches</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Meals
+            </a>
+            <ul class="dropdown-menu bg-warning rounded" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-dark"  target="_blank" href=""> Burgers</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href=""> Pizza</a></li>
+              <li><a class="dropdown-item text-dark" target="_blank" href=""> Negresco Pasta</a></li>
+              <li><hr class="dropdown-divider bg-dark " style="height: 3px;"></li>
+              <li><a class="dropdown-item text-secondary" target="_blank" href="">Alone</a></li>
+              <li><a class="dropdown-item text-secondary" target="_blank" href="">With Family</a></li>
+              <li><a class="dropdown-item text-secondary" target="_blank" href="">With Friends</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About</a>
+          </li>
+        </ul>
+  
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" >
+          <button class="btn btn-outline-warning me-2" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <form class="d-flex">
+          <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+        </form>
+
+
+
+      </div>
+    </div>
+</nav>
+</header>
+
+<main>
+      <div class="container-fluid p-5 rounded" >
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+      
+        <div class="carousel-inner " style="border-radius: 150px; box-shadow: 1px -9px 15px 1px rgba(243, 166, 1, 0.288); border: 1px solid rgb(177, 122, 5) ;">
+          <div class="carousel-item active">
+            <img src="img/familly22222.gif" class="d-block w-100" height="550px" alt="img1">
+            <div class="carousel-caption text-warning" style="border-radius: 150px; ">
+              <h1>Diverse Food</h1>
+              <a href="" class="btn btn-danger" target="_blank">See More Details</a>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="img/desser44444455555.gif" class="d-block w-100" height="550px" alt="img2">
+            <div class="carousel-caption text-warning" style="border-radius: 150px; ">
+              <h1>Chocolate Cake</h1>
+              <a href="" class="btn btn-primary" target="_blank">See More Details</a>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="img/11111111111111111111111111111111111.gif" class="d-block w-100" height="550px" alt="img3">
+            <div class="carousel-caption text-warning" style="border-radius: 150px; ">
+              <h1>Healthy Food</h1>
+              <a href="" class="btn btn-success" target="_blank">See More Details</a>
+            </div>
+          </div>
+          <div class="carousel-item" >
+            <img src="img/222222222222222222222.gif " class="d-block w-100" height="550px" alt="img4">
+            <div class="carousel-caption text-warning" style="border-radius: 150px; ">
+              <h1>MOON PIE PIE</h1>
+              <a href="" class="btn btn-warning text-light" target="_blank">See More Details</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</main>
+
+
+      <div class=" card mt-5 p-4 bg-dark text-white border-0 text-center ">
+              <div class="card-body">
+                <h2 class="card-title">Welcome On Your Restaurant Web Site</h2>
+                <p class="card-text">Order your favorite meal the way you like it and you will find it on the way to you</p>                
+                <button type="button"   type="button" class="btn bg-warning text-dark mb-5 " data-toggle="modal" data-target="#myModal" >Order Now</button>
+    
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+
+          <div class="modal-header">
+            <h4 class="modal-title">To Delivery Enter Your Address</h4>
+            <button type="button" class="close" data-dismiss="modal" >&times;</button>
+          </div>
+
+          <div class="modal-body" >
+              <input type="text" >
+            </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal">Done</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+<hr class="bg-warning p-1 rounded mb-3">
+
+
+
+<h1 class="text-center text-dark bg-warning rounded p-3 mr-5 ml-5">Where Do You Prefer To Eat Your Food..!?</h1>
+<div class="accordion btn-warning" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed btn-outline-dark " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Alone
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-warning bg-dark">
+        The place is characterized by the presence of more than one space to ensure the provision of your comfort    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        With Family
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-warning bg-dark">
+        The place is characterized by the presence of more than one space to ensure the provision of your comfort      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        With Your Friends
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body text-warning bg-dark">
+        The place is characterized by the presence of more than one space to ensure the provision of your comfort       </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr class="bg-warning p-1 rounded mb-5">
+
+
+
+<div class="col-12 row pb-5 mx-auto mb-5 " >
+  <div class="col-lg m-1 col-sm-12 rounded bg-warning">
+    <h1 class="text-center text-dark bg-warning rounded p-3   ">Alone</h1>
+<div class="card bg-dark border-0" >
+  <div class="card-body">
+    <h4 class="text-warning">Try To See The Place</h4>
+    <div class="btn btn-sm btn-outline-light .viewpuu::before .viewpuu::after viewpuu " onclick="copyPaste('mypython')" id="copyfun">
+      View
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="col-lg m-1 col-sm-12 rounded bg-warning">
+  <h1 class="text-center text-dark bg-warning rounded p-3">With Family</h1>
+<div class="card bg-dark border-0 " >
+  <div class="card-body">
+    <h4 class="text-warning">Try To See The Place </h4>
+    <div class="btn btn-sm btn-outline-light  .viewpuu::before .viewpuu::after viewpuu" onclick="copyPaste('myjava')">
+      View
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg m-1 col-sm-12 rounded bg-warning">
+  <h1 class="text-center text-dark bg-warning rounded p-3">With Friends</h1>
+<div class="card bg-dark border-0" >
+  <div class="card-body">
+    <h4 class="text-warning">Try To See The Place </h4>
+    <div class="btn btn-sm btn-outline-light  .viewpuu::before .viewpuu::after viewpuu" onclick="copyPaste('myjavascr')" >
+      View
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<hr class="bg-warning p-1 rounded mt-5 mb-3">
+</div>
+<div class="fixedimgaya fixedimgaya1 w-100 md-5 "></div>
+<div class=" card  p-4 bg-dark text-white border-0 text-center ">
+<hr class="bg-warning p-1 rounded mb-5">
+
+
+
+
+
+
+
+
+
+<h1 class="text-center text-dark bg-warning rounded p-3 m-5 ">Our Most Popular Dish</h1>
+<div class="container-fluid">
+  <div class="row justify-content-around pb-5 " style="box-shadow: 1px 1px 10px 1px rgb(0, 0, 0); border-radius: 7px;">
+    
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="#" target="_blank">
+      <img src="img/123412341234.jpg" class="card-img-top" alt="Burgers pic" height="300px"></a>
+      <div class="card-body ">
+        <h5 class="card-title">Burgers</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="" target="_blank">
+      <img src="img/123451234512345123455555.jpg" class="card-img-top" alt="Pizza Recipe pic" height="300px"></a>
+      <div class="card-body">
+        <h5 class="card-title">Pizza Recipe</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="" target="_blank">
+      <img src="img/12345612456124456666666666.jpg" class="card-img-top" alt="Negresco Pasta pic" height="300px"></a>
+      <div class="card-body">
+        <h5 class="card-title">Negresco Pasta</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="" target="_blank">
+      <img src="img/12234567124567777777777777777.jpg" class="card-img-top" alt="Broasted Chicken Hut pic" height="300px" ></a>
+      <div class="card-body">
+        <h5 class="card-title">Broasted Chicken Hut</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="" target="_blank">
+      <img src="img/12346789124578999999999999999.jpg" class="card-img-top" alt="Chicken Shawarma pic" height="300px" ></a>
+      <div class="card-body">
+        <h5 class="card-title">Chicken Shawarma</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 border-0 kasmflgkjmaljnf"  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);">
+      <a href="" target="_blank">
+      <img src="img/12345678124148724758888888888.jpg" class="card-img-top" alt="Grilled BBQ Chicken pic" height="300px" ></a>
+      <div class="card-body">
+        <h5 class="card-title">Grilled BBQ Chicken</h5>
+        <a href="" class="btn btn-danger text-light kjnskrjngljnksfg" >Order Now</a>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<hr class="bg-warning p-1 rounded mt-5 mb-3">
+</div>
+<div class="fixedimgaya fixedimgaya2"></div>
+<div class=" card p-4 bg-dark text-white border-0 text-center ">
+<hr class="bg-warning p-1 rounded mb-5">
+
+
+
+
+
+<h1 class="text-center text-dark bg-warning rounded p-3 m-5 " >Thanks For</h1>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-warning text-dark border-0 "  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);" >
+      <img src="img/chef-mohsen.webp" height="350px" class="card-img-top"  alt="محسن">
+      <div class="card-body">
+        <p class="card-text "> <strong> chef  محسن </strong></p>
+      </div>
+    </div>
+    <div class="card m-3 bg-warning text-dark border-0 "  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);" >
+      <img src="img/Web-DEV AHMED YAHYA.jpg" height="350px" class="card-img-top" alt="AMD">
+      <div class="card-body">
+        <p class="card-text"> <strong>W.D AHMED YAHYA</strong> </p>
+      </div>
+    </div>
+    <div class="card m-3 bg-warning text-dark border-0 "  style="width: 18rem;box-shadow: 10px 10px 5px -10px rgb(0, 0, 0);" >
+      <img src="img/chef-mhasen.webp" height="350px" class="card-img-top" alt="محاسن">
+      <div class="card-body">
+        <p class="card-text"> <strong>chef  محاسن </strong> </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<hr class="bg-warning p-1 rounded mb-5 mt-n1">
+
+
+
+
+<h2 class="text-center text-light">Join Us</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Subscribe Now
+        </h6>
+        <i class="fab fa-youtube m-3 text-danger"></i>
+        <a href="" target="_blank" class="card-link">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Follow 
+        </h6>
+        <i class="fab fa-twitter m-3 text-primary"></i>
+        <a href="" target="_blank" class="card-link">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-dark" style="width: 18rem;">
+      <div class="card-body text-light d-flex flex-column text-center">
+        <h6 class="card-title mb-4">Like the page
+        </h6>
+        <i class="fab fa-facebook-f m-3 text-primary"></i>
+        <a href="" target="_blank" class="card-link">Go to link</a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+<footer class="bg-dark text-light mt-5 p-2 pb-5 ">
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5 class="text-warning"><i class="fas fa-utensils"></i> Restaurant</h5>
+      <hr class="border-top my-3">
+      <address>
+        <p>Tel : 000-000-000</p>
+        <p>Address : EGYPT</p>
+        <p>Fax : 000-000-000</p>
+      </address>
+    </div>
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5 class="text-warning"><i class="fas fa-link text-primary"></i> Important links</h5>
+      <hr class="border-top my-3">
+        <p><a href="#" target="_blank">Visit Us</a></p>
+        <p><a href="#" target="_blank">Take alook</a></p>
+        <p><a href="#" target="_blank">Your health is more important</a></p>
+    </div>
+    <div class="col-md-4">
+      <hr class="border-top my-3">
+      <h5 class="text-warning"><i class="fas fa-trophy text-secondary"></i> Vision</h5>
+      <hr class="border-top my-3">
+        <p>Serveices for all </p>
+        <p>Provide best serveices</p>
+        <p>you will be better than before</p>
+    </div>
+  </div>
+</div>
+<hr class="bg-warning p-1 rounded mb-3">
+<span class="text-center d-block text-secondary">Copyright@  2022 AHMED YAHYA ZEKRE , AMD Company. All rights</span>
+</footer>
+
+
+
+<form class="fr pt-5 pb-5 m-auto text-center" action="">
+  
+	<label class="fr__label text-light" for="face-rating">How was your experience?</label>
+	<div class="fr__face" role="img" aria-label="Straight face">
+		<div class="fr__face-right-eye" data-right></div>
+		<div class="fr__face-left-eye" data-left></div>
+		<div class="fr__face-mouth-lower" data-mouth-lower></div>
+		<div class="fr__face-mouth-upper" data-mouth-upper></div>
+	</div>
+	<input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
+
+
+  <button type="button"   type="button" class="btn btn-warning mt-3" data-toggle="modal" data-target="#myModal22">Enter</button>
+    <div class="modal" id="myModal22">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Thank you for your interest in responding, and we hope to always be at your best</h4>
+            <button type="button" class="close" data-dismiss="modal" >&times;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-secondary" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-secondary">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check ">
+            <div class="form-check form-switch ">
+              <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label text-secondary " for="flexSwitchCheckChecked">Remmember me</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-warning">Login</button>
+        </form>
+
+
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
